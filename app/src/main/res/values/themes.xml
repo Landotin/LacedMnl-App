@@ -1,8 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.LacedMnlApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <resources>
+            <color name="textColorPrimary">#000000</color> <!-- Black text color -->
+            <color name="textColorSecondary">#757575</color> <!-- Grey text color -->
+
+        </resources>
+
     </style>
 
     <style name="Theme.LacedMnlApp" parent="Base.Theme.LacedMnlApp" />

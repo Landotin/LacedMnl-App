@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">LacedMnl App</string>
+    <string name="app_name">LacedMnl Store</string>
+    <string name="homepageready">Ready to elevate your lifestyle?   </string>
+    <string name="comfort_style"><![CDATA[Comfort & Style]]></string>
 </resources>
