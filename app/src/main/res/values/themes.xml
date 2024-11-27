@@ -4,9 +4,12 @@
         <resources>
             <color name="textColorPrimary">#000000</color> <!-- Black text color -->
             <color name="textColorSecondary">#757575</color> <!-- Grey text color -->
-
+            <item name="android:textViewStyle">@style/CustomTextViewStyle</item>
         </resources>
 
+    </style>
+    <style name="CustomTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/textColor</item>
     </style>
 
     <style name="Theme.LacedMnlApp" parent="Base.Theme.LacedMnlApp" />
