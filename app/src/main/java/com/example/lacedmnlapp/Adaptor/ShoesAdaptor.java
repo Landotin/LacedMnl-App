@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.lacedmnlapp.R;
 
-public class CategoryAdaptor extends RecyclerView.Adapter<CategoryAdaptor.ViewHolder> {
+public class ShoesAdaptor extends RecyclerView.Adapter<ShoesAdaptor.ViewHolder> {
 
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -31,13 +31,13 @@ public class CategoryAdaptor extends RecyclerView.Adapter<CategoryAdaptor.ViewHo
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView categoryName;
-        ImageView categoryPic;
+        TextView ShoesName;
+        ImageView ShoesPic;
         ConstraintLayout mainLayout;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            categoryName=itemView.findViewById(R.id.);
+            ShoesName=itemView.findViewById(R.id.);
         }
     }
 }
