@@ -8,4 +8,7 @@
 
     <color name="backgroundColor">#FFF5F2</color>
     <color name="Primary">#FBA730</color>
+
+        <color name="g_search_and_icons">#ADD8E6</color> <!-- Replace with the desired color -->
+
 </resources>
