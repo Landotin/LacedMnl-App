@@ -32,8 +32,7 @@ public class ShoesDomain extends AppCompatActivity {
         trends.add(new ShoeItem("Shoes 1", "adidas_1"));
         trends.add(new ShoeItem("Shoes 2", "nike_1"));
         trends.add(new ShoeItem("Shoes 3", "adidas_2"));
-        trends.add(new ShoeItem("Shoes 4", "nike_2"));
-        trends.add(new ShoeItem("Shoes 5", "adidas_3"));
+
 
     }
 }
